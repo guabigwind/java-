@@ -27,7 +27,8 @@
                  src.zip（java所有核心类库的源代码）
                  README和LICENSE（说明性文档）
             
-     hello world编写过程：1.新建.txt文件,并重命名为类名称的java文件（HelloWorld.java）。2.进入cmd操作界面，d:盘符选择命令、cd 文件名进入该文件存放                          处。3.执行javac进行编译（javac HelloWorld.java），此时同文件下会生成对应类的class文件。4.java文件执行
-                        （java HelloWorld），直接加类名就行不需带文件名。
-                        
+     hello world编写过程：1.新建.txt文件,并重命名为类名称的java文件（ByYourself.java）,编写各种class，。2.进入cmd操作界面，d:盘符选择命令、cd 文件名进入该文件存放                          处。3.执行javac进行编译（javac HelloWorld.java），此时同文件下会生成对应类的class文件。4.java文件执行
+                        （java 各种class（想运行必须加入main函数入口，否则虽通过编译运行会报错）），直接加类名就行不需带文件名。
+                 
+                 注意：ByYourself.java文件中，可以有多个类，最终被编译为多个class文件。
      
