@@ -1,1 +1,33 @@
-
+1.认识java（起源于SUN后被Orecle收购）
+    java是一门面向对象的编程语言，吸收了c++语言的优点，并摒弃了其多继承、指针等概念。是简单易用的面向对象编程语言。
+    java开发分为以下3个方向，javaSE（java platform standard edition）标准版，是javaEE和javaME的基础，包括各种java语言核心类。
+ javaEE（java platform enterprise edition）企业版，用于web开发，包含servlet、jsp、xml、事物控制等，是现在java应用的主要方向。javaME（java platform micro edition）小型版，用于嵌入式系统程序的开发，用于智能手机、手机、机顶盒等电子产品软件的开发。（Android SDK是统一性更好，不需要为每台设备配置javaME运行环境）
+  
+    1995年SUN公司推出java语言，因为其可以解决动态web，而被大量程序员追捧。如今已经历时23年。
+    
+    java语言特点：
+       java语言是简单的：不使用指针，提供自动的垃圾回收机制，使程序员不必担心内存管理问题。
+       java语言面向对象：类只支持单继承，但可实现多个接口。
+       java语言是分布式的：因其有强大易用的联网能力，即网络应用编程接口（java.net）
+       java语言是健壮的：强类型机制、异常处理、垃圾自动收集等特性。丢弃指针和使用安全检查机制使得java更加robust。
+       java语言是安全的：安全防范机制，安全检查机制。
+       java语言是可移植的：不同平台配备不同版本的jvm，一次编译到处运行，javac.exe是java实现的，java.exe是ANSI C实现的。
+       java语言是解释型的：java字节码由jvm解释执行。
+       java语言是高性能的：java的运行速度随着JIT编译技术（此处编译值jvm中解释执行前会检测编译部分热点字节码）的发展越来越接近c++。
+       java语言是多线程的：很多操作系统将线程视为基本的执行单位，语言支持多行程机制，为开发者带来方便。
+       java语言是动态的：适应动态变化的环境，可将新代码加入一个正在运行的程序中。
+       
+     jdk下载（Oracle官网），配置环境变量JAVA_HOME,并将其加入系统路径Path中，cmd中执行javac或java -version测试环境是否配置好。
+     jdk目录介绍：bin（javac.exe、java.exe、jar.exe、jdb.exe、javadoc.exe文档生成工具）
+                 db（javaDB）
+                 include（启动jdk是需要引入的C语言头文件）
+                 jre（jvm、运行时类包等）
+                 lib（存放java类库或库文件）
+                 javafx-src.zip（java FX所有核心类库的源代码、GUI开发库（swing、SWT、java FX））
+                 src.zip（java所有核心类库的源代码）
+                 README和LICENSE（说明性文档）
+            
+     hello world编写过程：1.新建.txt文件,并重命名为类名称的java文件（HelloWorld.java）。2.进入cmd操作界面，d:盘符选择命令、cd 文件名进入该文件存放                          处。3.执行javac进行编译（javac HelloWorld.java），此时同文件下会生成对应类的class文件。4.java文件执行
+                        （java HelloWorld），直接加类名就行不需带文件名。
+                        
+     
